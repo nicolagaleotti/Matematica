@@ -6,7 +6,7 @@ namespace Matematica
     {
         static void Main(string[] args)
         {
-            Console.WriteLine("Hello World!");
+            
         }
     }
 }
