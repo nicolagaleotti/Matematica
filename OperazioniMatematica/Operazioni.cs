@@ -64,5 +64,17 @@ namespace OperazioniMatematica
                 return b;
             }
         }
+         public static int CalcolaMetà (int a)
+        {
+            if (a % 2 == 0)
+            {
+                a = a / 2;
+            }
+            else
+            {
+                throw new Exception("Il numero è dispari");
+            }
+            return a;
+        }
     }
 }
