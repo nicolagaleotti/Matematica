@@ -76,5 +76,9 @@ namespace OperazioniMatematica
             }
             return a;
         }
+         public static bool Uguali (int a,int b,int c)
+        {
+            return a == b && b == c;
+        }
     }
 }
